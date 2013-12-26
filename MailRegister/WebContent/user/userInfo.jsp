@@ -14,7 +14,7 @@
 	}
 	
 	if(mail==null && password==null){
-		response.sendRedirect("index.jsp");
+		response.sendRedirect("/MailRegister/index.jsp");
 	}
 
 %>
