@@ -45,4 +45,12 @@
     <filter-name>loginFilter</filter-name>
     <url-pattern>/MailLogin</url-pattern>
   </filter-mapping>
+  <filter>
+    <filter-name>UserAutoLoginFilter</filter-name>
+    <filter-class>com.haotai.filter.UserAutoLoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>UserAutoLoginFilter</filter-name>
+    <url-pattern>/user/*</url-pattern>
+  </filter-mapping>
 </web-app>
